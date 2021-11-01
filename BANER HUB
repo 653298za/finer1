@@ -88,7 +88,7 @@ _G.Save = {
 }
 function LoadSetting()
     if isfile("BANER HUB") then
-            vb = game:GetService("HttpService"):JSONDecode(readfile("SaveSettingJPEX.json"))
+            vb = game:GetService("HttpService"):JSONDecode(readfile("BANER HUB"))
             _G.Save = vb
         else
             loadcheck()
